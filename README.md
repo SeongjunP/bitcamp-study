@@ -12,4 +12,6 @@ git 저장소에 파일업로드 하기 - 강사님 메모 참고 and 위 저장
 !!내 이메일,유저네임 지정방법(한번만 하면 되고 업로드 하기전 진행!!) : bitcamp-study 파일에서 get config --global user.email "guppy217@naver.com"
                                                                       get config --global user.name "SeongjunP"
 
-!!git clone 먼저 진행!!(위 저장소 가져오기 참고) 
+!!git clone 먼저 진행!!(위 저장소 가져오기 참고)
+
+!!실수로 강사 파일을 수정했을 경우에는 cd..으로 git 폴더까지 나와서 다시 강사 파일 클론해주면 됨.
