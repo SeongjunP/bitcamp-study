@@ -100,3 +100,7 @@ study-project를 Gradle이라는 빌드 도구를 사용하여 하위 폴더까�
 
 !Gradle 빌드 도구 설치 후, Gradle 관련 명령어를 사용하여 프로젝트 폴더 생성 등 프로젝트를 통제할 수 있다
 	-강사 필기 참고!
++추가: select test framework에서 JUnit 4 선택
+
+## 5일차
+
