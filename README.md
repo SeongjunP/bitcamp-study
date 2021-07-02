@@ -103,4 +103,18 @@ study-project를 Gradle이라는 빌드 도구를 사용하여 하위 폴더까�
 +추가: select test framework에서 JUnit 4 선택
 
 ## 5일차
+-gradle로 프로젝트 폴더 준비하기
+프로젝트 폴더 밑에서 gradle init
+-> 순서대로 appliecation, Java, only one, Groovy, Junit, study-project, com.eomcs.pms
+
+-자바 기초 문법
+src/main/java까지는 프로젝트에서 정한 소스파일 기본위치(그 밑 폴더부터 패키지)
+bin/main 까지는 프로젝트에서 정한 클래스파일의 기본 위치
+소스파일 첫 번째 문장에 선언하는 패키지명 경로에 소스파일을 저장해야한다.
+
+오늘 배운 기초 문법: 패키지 다루기, 자바 소스파일과 클래스 블록, 소스파일의 인코딩, main() 메서드
+여러 줄 주석, 한 줄 주석, javadoc 주석, 애노테이션
+
+-eclipse 설치
+eclipse.org 사이트에서 개발 도구 다운로드 및 설치
 
