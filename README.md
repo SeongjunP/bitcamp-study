@@ -176,3 +176,26 @@ Vector 폰트(truetype 폰트)
    =폰트를 명령어로 저장
    =크기를 늘려도 깔끔하게 출력, 하지만 폰트를 명령어로 저장
 -char
+
+##8일차
+-변수 
+변수는 값을 저장하는 메모리
+ex) int age;	int는 값을 저장할 메모리의 종류와 크기(데이터 타입)
+		age는 메모리를 가리키는 이름
+메모리는 운영체제가 관리하고 통제
+(따라서 JVM이 메모리를 사용하기 위해서 os에게 사용할 메모리를 할당받아야 한다)
+
+-데이터 타입
+정수: byte(1byte), short(2byte), int(4byte), long(8byte)
+부동소수점:float, double
+논리: int 타입의 메모리 사용(boolean)
+문자: 2byte(char)
+
+-l-value 와 r-value
+l-value의 l은 left(왼쪽), r-value의 r은 right(오른쪽)
+ex) age = 20;	<- age부분을 l-value, 20을 r-value
+l-value는 반드시 메모리여야 한다(상수는 올 수 없음)
+
+-scanner
+자바의 스캐너 클래스는 java.util 패키지 내에 존재하는 클래스로,
+정수(int), 실수(double)등의 기본적인 데이터 타입 입력을 받기위한 클래스
