@@ -188,7 +188,7 @@ ex) int age;	int는 값을 저장할 메모리의 종류와 크기(데이터 타
 -데이터 타입
 정수: byte(1byte), short(2byte), int(4byte), long(8byte)
 부동소수점:float, double
-논리: int 타입의 메모리 사용(boolean)
+논리: int 타입의 메모리 사용(boolean) - ture, false
 문자: 2byte(char)
 
 -l-value 와 r-value
