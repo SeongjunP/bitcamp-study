@@ -199,3 +199,41 @@ l-value는 반드시 메모리여야 한다(상수는 올 수 없음)
 -scanner
 자바의 스캐너 클래스는 java.util 패키지 내에 존재하는 클래스로,
 정수(int), 실수(double)등의 기본적인 데이터 타입 입력을 받기위한 클래스
+스캐너 기능 삽입 후, 스캐너 이름과 .nextLine();을 엔터키를 누르는 곳 뒤에 배치해야 한다.
+
+##9일차
+-날짜 생성 명령어
+java.sql.Date d = new java.sql.Date(millis)	<- 날짜정보를 다루는 물건을 생성
+System.out.println(d. toString())	<-현재날짜 출력
+
+javs.sql.Date.valueof(날짜문자열)	<- 위와 똑같이 날짜정보를 다루는 물건을 생성
+		        l_>yyyy-mm-dd(위쪽 밀리초를 넣는 형식과는 다르다)
+-import
+자바에게 물건(Date(날짜기능), Scanner(입력기능) 등..)이 있는 위치를 미리 알려주는 명령어(위쪽에서 지정)
+
+-int [] 이름 = new int[숫자]
+int 값을 지닌 메모리 배열을 좀더 간단히 표기하는 방법
+ex) int 이름1, int 이름2, int 이름3, int 이름4..... 처럼 길게 표시하지 않고
+    int [] 이름 = new int[4]	<- 이렇게 간단히 표시할 수 있다
+
+-while 조건문
+int i = 0;		<-while 문에 사용할 int 생성
+while (i < 숫자) {	<-반복할 만큼의 수를 숫자에 넣기
+   i = i + 1;	<-i가 숫자에 도달할 때까지 반복
+}		
+(while조건문 뒤에 다른 출력문을 다시 while조건문을 적용시키고 싶다면
+i = 0; 과 같은 명령어로 초기화 시키고 다시 while 조건문을 시작해야 한다)
+
+-for 반복문
+for (int i = 0; i < 숫자; i = i + 1){}
+	-for 반복문에 사용할 int 생성, 숫자에 반복출력할 수 입력, i + 1은
+	 i가 숫자에 도달할 때까지 반복
+
+-int maxLength
+여러 문장에서 반복해서 사용하는 값을 변수에 담아서 사용할 수 있다
+ex) int maxLength = 5; 로 지정할 경우,
+5라는 값을 사용한 곳에 maxLength라는 것을 대신 사용할 수 있다
+
+-final
+int 앞 final을 붙이면 최종적으로 출력해야할 숫자만큼으로 인식.
+문자열을 다른 문자열과 비교할때는 .equals("")
