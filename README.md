@@ -312,3 +312,32 @@ new명령어는 heap에 위치
 
 byte a, int b, double c... 등등 값을 저장하는 변수를 제외하고는
 전부 주소를 저장하는 변수이다.(int[]	<-이런 경우도 주소를 저장)
+
+##14일차
+-임시백업(수정예정)-
+메서드 호출이 끝났을때 사라지는 변수는 로컬변수
+(new 변수는 사라지지 않음)
+
+Garbage Collector는 메모리가 부족해도 Method Area나 JVM Stack을 청소하지 못한다.
+처음에는 main메서드 호출
+
+실행순서 파악
+
+0440 그림보고 파악
+main메소드에 arg와 생성
+m1(5) 생성
+
+디버그를 활용하면 메서드 호출 파악가능
+
+자바 기초 블로그 글(https://eskeptor.tistory.com/28?category=928923)
+
+메서드에서 new연산자사용하여 변수를 만들기
+
+System.getProperties();
+
+클린코드 책
+
+test02
+Math.abs int i = 1;
+test004
+int j - i + 1
