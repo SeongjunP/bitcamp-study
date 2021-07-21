@@ -2,7 +2,7 @@ package com.eomcs.pms.handler;
 
 public class Test {
   public static void main(String[] args) {
-    int score = 101;
+    int score = 77;
     char grade;
     if (score > 100 || score < 0) {
       grade = 'p';
