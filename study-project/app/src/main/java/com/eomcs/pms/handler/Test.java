@@ -1,35 +1,35 @@
 package com.eomcs.pms.handler;
 
 public class Test {
-  public static void main(String[] args) {
-    int score = 77;
-    char grade;
-    if (score > 100 || score < 0) {
-      grade = 'p';
-    }
-    else if (score >= 90) {
-      grade = 'A';
-    }
-    else if (score >= 80) {
-      grade = 'B';
-    }
-    else if (score >= 70) {
-      grade = 'C';
-    }
-    else if (score >= 60) {
-      grade = 'D';
-    }
-    else {
-      grade = 'E';
-    }
-    if (grade <= 'E' && grade >= 'A') {
-      System.out.println("점수: " + score);
-      System.out.println("당신의 학점은" + grade + "입니다");
-    }
-    else 
-      System.out.println("점수잘못");
+
+	// 배열에서 해당 항목의 값을 삭제한다.
+	// 배열 뒤의 항목은 -1로 설정한다.
+	// 배열을 출력할 때는 -1인 항목은 출력하지 않는다.
+  static void deleteValue(int[] arr, int value) {
+	  int i;
+	    for (i = 0; i < arr.length; i++) {
+	    	if (arr[i] == value) {
+	    		break;
+	    	}
+	    }
+	    if (i == arr.length) {
+	    	return;
+	    }
+	    for (i++; i < arr.length; i++) {
+	    	arr[i-1] = arr[i];
   }
+  arr[arr.length -1] = -1;
+}
+ 
 
+  public static void main(String[] args) {
+    int[] arr = {100, 200, 300};
+    deleteValue(arr, 300);
 
-
+    for (int value : arr) {
+    	if (value == -1)
+    		break;
+      System.out.println(value);
+    }
+  }
 }
