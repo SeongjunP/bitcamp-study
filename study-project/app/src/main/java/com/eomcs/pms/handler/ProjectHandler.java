@@ -120,6 +120,9 @@ public void update() {
 	    project.title = title;
 	    project.content = content;
 	    project.startDate = startDate;
+	    project.endDate = endDate;
+	    project.owner = owner;
+	    project.members = members;
 	    System.out.println("프로젝트를 변경하였습니다.");
 	  }
 
