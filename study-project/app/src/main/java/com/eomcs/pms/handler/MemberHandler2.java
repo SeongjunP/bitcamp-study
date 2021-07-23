@@ -122,22 +122,25 @@ public class MemberHandler {
     }
     return false;
   }
+
   private Member findByNo(int no) {
-	    for (int i = 0; i < this.size; i++) {
-	      if (this.members[i].no == no) {
-	        return this.members[i];
-	      }
-	    }
-	    return null;
+    for (int i = 0; i < this.size; i++) {
+      if (this.members[i].no == no) {
+        return this.members[i];
+      }
+    }
+    return null;
   }
+
   private int indexOf(int no) {
-	    for (int i = 0; i < this.size; i++) {
-	      if (this.members[i].no == no) {
-	        return i;
-	      }
-	    }
-	    return -1;
+    for (int i = 0; i < this.size; i++) {
+      if (this.members[i].no == no) {
+        return i;
+      }
+    }
+    return -1;
   }
+
 }
 
 
