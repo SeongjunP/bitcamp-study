@@ -21,24 +21,6 @@ public class TaskHandler {
     task.content = Prompt.inputString("내용? ");
     task.deadline = Prompt.inputDate("마감일? ");
 
-    System.out.println("상태?");
-    System.out.println("0: 신규");
-    System.out.println("1: 진행중");
-    System.out.println("2: 완료");
-    task.status = Prompt.inputInt("> ");
-
-    while (true) {
-      String owner = Prompt.inputString("담당자?(취소: 빈 문자열) ");
-      if (owner.length() == 0) {
-        System.out.println("작업 등록을 취소합니다.");
-        return; // 현재 메서드의 실행을 멈추고 리턴한다.
-      } else if (memberHandler.exist(owner)) {
-        task.owner = owner;
-        break;
-      }
-      System.out.println("등록된 회원이 아닙니다.");
-    }
-
     this.tasks[this.size++] = task;
   }
 
@@ -51,7 +33,7 @@ public class TaskHandler {
           this.tasks[i].no, 
           this.tasks[i].content, 
           this.tasks[i].deadline, 
-          getStatusLabel(this.tasks[i].status) ,
+          getStatusLabel(this.tasks[i].status),
           this.tasks[i].owner);
     }
   }
@@ -185,14 +167,31 @@ public class TaskHandler {
 	    }
 	    return -1;
   }
-  private String getstatusLabel(int status) {
-      switch (tasks[i].status) {
-      case 1:
-        stateLabel = "진행중";
-        break;
-      case 2:
-        stateLabel = "완료";
-        break;
-      default:
-        stateLabel = "신규";
+  private String getStatusLabel(int status) {
+	  switch (status) {
+	  case 1: return "진행중";
+	  case 2: return "완료";
+	  default: return "신규";
+	  }
+  }
+  private String promptOwner(MemberHandler memberhandler, String ownerName) {
+	    while (true) {
+	        String owner = Prompt.inputString(String.format(
+	        		"담당자?(취소: 빈 문자열) ",
+	        		ownerName != null ? "(" + ownerName + ")" : ""));
+	        if (memberhandler.exist(owner)) {
+	          return owner;
+	        } else if (owner.length() == 0) {
+	          return null;
+	        }
+	        System.out.println("등록된 회원이 아닙니다.");
+	      }
+  }
+  private int promptStatus (int status) {
+	    System.out.println("상태?");
+	    System.out.println("0: 신규");
+	    System.out.println("1: 진행중");
+	    System.out.println("2: 완료");
+	    return Prompt.inputInt("> ");
+  }
 }
