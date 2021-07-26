@@ -7,7 +7,8 @@ import com.eomcs.oop.ex01.sub.*;
 public class Exam0730 {
   public static void main(String[] args) {
 
-    // 특정 패키지의 클래스를 많이 사용한다면 다음과 같이 패키지명 다음에 wildcard(*)를 지정할 수 있다.
+    // 특정 패키지에 소속된 여러 클래스를 많이 사용한다면 
+	//다음과 같이 패키지명 다음에 wildcard(*)를 지정하면 편리하다.
     // 문법:
     //      import 패키지명.*;
     //
