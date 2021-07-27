@@ -8,7 +8,7 @@ public class Exam0730 {
     int b;
     int c;
 
-    {
+    { // 인스턴스 초기화 블록 (instance initializer)
       a = 100;
       System.out.println("Hello!");
     }
