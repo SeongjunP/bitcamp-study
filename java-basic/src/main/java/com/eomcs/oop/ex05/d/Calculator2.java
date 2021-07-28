@@ -3,7 +3,7 @@
 package com.eomcs.oop.ex05.d;
 
 public class Calculator2 extends Calculator {
-
+ 
   // 새 기능을 추가한다.
   //
   public void multiple(int value) {
