@@ -21,8 +21,8 @@ public class Exam0710 {
     }
 
     // 생성자가 없으면,
-    // - 다음과 같이 컴파일러는 기본 생성자가 만든 후
-    //	 메서드 블럭 시작 부분에 인스턴스 초기화 블록에 들어 있는 코드를 삽입한다.
+    // - 다음과 같이 컴파일러는 기본 생성자를 만든 후 
+    //   메서드 블럭 시작 부분에 인스턴스 초기화 블록에 들어 있는 코드를 삽입한다.
     // - 바이트코드(Exam0710$A.class)를 확인해 보라!
     //
     //    public A() {
@@ -32,7 +32,7 @@ public class Exam0710 {
   }
 
   public static void main(String[] args) {
-    A obj1 = new A(); 
+    A obj1 = new A();
     System.out.printf("a=%d, b=%d, c=%d\n", obj1.a, obj1.b, obj1.c);
   }
 }

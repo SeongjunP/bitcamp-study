@@ -7,7 +7,6 @@ public class Exam0210 {
     //1) 클래스 메서드 = static 메서드
     //   => static 붙은 메서드이다.
     //   => 클래스 이름으로 호출할 수 있다.
-    //   => "스태틱 메서드"라고도 부른다.
     static void m1() {
       System.out.println("m1()");
     }
@@ -26,7 +25,7 @@ public class Exam0210 {
     A.m1(); // OK!
 
     // => 인스턴스 메서드는 클래스 이름으로 호출할 수 없다.
-    //A.m2(); // 컴파일 오류!
+    //    A.m2(); // 컴파일 오류!
 
     A obj1 = new A();
 
