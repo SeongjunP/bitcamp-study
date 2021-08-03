@@ -1,25 +1,19 @@
-// 캡슐화(encapsulation) - 접근 범위 테스트
+// 캡슐화 접근 범위 테스트 - 다른 패키지의 멤버가 접근할 수 있는 범위
 package com.eomcs.oop.ex08.b;
 
-class A {
-  private int privateVar;
-  int defaultVar;
-  protected int protectedVar;
-  public int publicVar;
-}
-
-public class Exam0210 extends com.eomcs.oop.ex08.b.sub.C {
+public class Exam0212 {
 
   public static void main(String[] args) {
-    A obj1 = new A();
+	  // B 클래스는 Exam0212와 다른 패키지이다.
+    com.eomcs.oop.ex08.b.sub.B obj = new com.eomcs.oop.ex08.b.sub.B();
 
-    //obj1.privateVar = 100; // 접근 불가! 오직 그 클래스 안에서만 사용가능.
-    obj1.defaultVar = 100; // OK! 이 클래스는 A 클래스와 같은 패키지에 소속되어 있다.
-    obj1.protectedVar = 100; // OK! 비록 이 클래스가 자식클래스는 아니지만
+    //    obj.privateVar = 100; // 접근 불가! 오직 그 클래스 안에서만 사용가능.
+    //    obj.defaultVar = 100; // OK! 이 클래스는 A 클래스와 같은 패키지에 소속되어 있다.
+    //    obj.protectedVar = 100; // OK! 비록 이 클래스가 자식클래스는 아니지만
     // 같은 패키지에 소속되어 있다.
-    obj1.publicVar = 100; // OK! 모두 다 접근 가능!
-
-    com.eomcs.oop.ex08.b.sub.B obj2 = new com.eomcs.oop.ex08.b.sub.B();
+    obj.publicVar = 100; // OK! 모두 다 접근 가능!
+  }
+}
 
     //obj2.privateVar = 100; // 접근 불가! 오직 그 클래스 안에서만 사용 가능.
     //obj2.defaultVar = 100; // 접근 불가! 같은 패키지까지만 접근 가능.
@@ -36,7 +30,7 @@ public class Exam0210 extends com.eomcs.oop.ex08.b.sub.C {
     // 이유 => 자기의 인스턴스 변수가 아니다.
     obj3.publicVar = 100; // OK! 모두 다 접근 가능.
 
-    Exam0210 obj4 = new Exam0210();
+    Exam0212 obj4 = new Exam0212();
     //obj4.privateVar = 100; // 접근 불가! C 클래스에서만 접근 가능
     //obj4.defaultVar = 100; // 접근 불가! C 클래스와 같은 패키지가 아니다.
     obj4.protectedVar = 100; // OK! Exam0210은 C의 자식 클래스이며,
@@ -51,7 +45,7 @@ public class Exam0210 extends com.eomcs.oop.ex08.b.sub.C {
     obj.publicVar = 100;
   }
 
-  void m2(Exam0210 obj) {
+  void m2(Exam0212 obj) {
     //obj.privateVar = 100;
     //obj.defaultVar = 100;
     obj.protectedVar = 100;
