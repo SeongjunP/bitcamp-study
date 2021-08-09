@@ -5,7 +5,10 @@ class Tv {
 	boolean power;
 }
 
-class S {}
+class S {
+	int channel;
+	boolean power;
+}
 
 public class Test {
 	public static void name() {
