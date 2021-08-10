@@ -27,8 +27,8 @@ public class Exam0141 {
     obj2.name = "홍길동";
     obj2.age = 20;
     
-    System.out.println(obj1 == obj2);
-    System.out.println(obj1.equals(obj2));
+    System.out.println(obj1 == obj2); // false
+    System.out.println(obj1.equals(obj2)); //false
     
     System.out.println(Integer.toHexString(obj1.hashCode()));
     System.out.println(Integer.toHexString(obj2.hashCode()));

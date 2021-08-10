@@ -37,6 +37,10 @@ public class Exam0144 {
     System.out.println(s2.hashCode());
     System.out.println(s3.hashCode());
     
+    System.out.println(s1);
+    System.out.println(s2);
+    System.out.println(s3);
+    
     
     // 해시코드?
     // => 데이터를 식별할 때 사용하는 고유 아이디이다.
