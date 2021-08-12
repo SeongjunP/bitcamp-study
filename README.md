@@ -364,3 +364,7 @@
 ## 33일차(2021-08-11,수)
 - 자바 기본 클래스 사용법(eomcs-java/com.eomcs.basic)
 	- ex02: Wrapper, Date, Calendar 클래스 사용법
+
+## 34일차(2021-08-12,목)
+- 자바 객체지향 문법(eomcs-java/com.eomcs.oop)
+	- ex09(d ~ h): 인터페이스와 추상 클래스의 협업, 인터페이스 활용
