@@ -1,5 +1,5 @@
 // 디폴트 메서드 - 기존 코드에 영향을 미치지 않고 새 규칙을 추가하는 방법
-package com.eomcs.oop.ex09.i;
+package com.eomcs.oop.ex09.h;
 
 public interface Printer {
 
@@ -24,6 +24,9 @@ public interface Printer {
   // 이 메서드를 추가했다고 해서
   // 기존에 작성한 클래스(PaterPrinter, FilmPrinter)를 변경할 필요는 없다.
   // 컴파일 오류가 발생하지 않는다.
+  //
+  // 그러나 default 문법을 사용했을 때 단점이 있다.
+  // => 구현할 클래스에게 메서드 구현을 강제할 수 없다!!!
 }
 
 

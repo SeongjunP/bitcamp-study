@@ -1,21 +1,22 @@
 package com.eomcs.oop;
 
-class Tv {
-	int channel;
-	boolean power;
+class O {
+	String s;
+	int n;
+	static int l = 1;
+	static int t = 100;
 }
+	class Test {
 
-class S {
-	int channel;
-	boolean power;
-}
-
-public class Test {
-	public static void name() {
-		
-		Tv t1 = new Tv();
-		t1.channel = 7;
-		System.out.println(t1);
+	public static void main(String[] args) {
+		O c1 = new O();
+		c1.s = "ddd";
+		c1.n = 2;
+		O.l = 10;
+		O.t = 5;
+		System.out.println(c1.s);
+		System.out.println(c1.n);
+		System.out.println(O.l);
+		System.out.println(O.t);
 	}
-
 }

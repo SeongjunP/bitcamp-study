@@ -5,7 +5,7 @@ package com.eomcs.oop.ex09.a1.after;
 // 이 클래스는 Worker 규칙을 따른다고 할 수 있는가?
 // 답: 아니오!
 // 
-// 운전 면허가 없더라도 운전을 할 수 있다고 해서
+// 운전 면허가 없더라도 운전을 할 수 있다고 해서 
 // 도로로 차를 몰 수는 없다.
 public class HulWorker {
   public void execute() {

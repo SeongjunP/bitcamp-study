@@ -17,7 +17,7 @@ public class Exam0610 {
     // 오버라이딩 메서드의 리턴 타입은 
     // 서브 클래스도 가능하다.
     @Override
-     Sedan create() {
+    Sedan create() {
       return new Sedan();
     }
   }
@@ -33,7 +33,7 @@ public class Exam0610 {
 
 
   public static void main(String[] args) {
-    
+
   }
 }
 
