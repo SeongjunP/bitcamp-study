@@ -402,3 +402,14 @@
 - 프로젝트 개발 방법론
 	- 요구사항 식별 방법
 		- 액터와 유스케이스 식별 방법(계속)
+
+## 40일차(2021-08-23,월)
+
+- 제네릭 문법(eomcs-java/com.eomcs.generic)
+	- ex01 ~ ex02: 제네릭 사용법
+- 자바 컬렉션 API(eomcs-java/com.eomcs.basic)
+	- ex03: ArrayList 사용법
+- 자바 객체지향 문법(eomcs-java/com.eomcs.oop)
+	- ex12(Exam0110 ~ Exam0160): 람다(lambda) 기본 사용법
+- 팀 프로젝트
+	- 요구사항 정의: Usecase Model(계속)
