@@ -413,3 +413,10 @@
 	- ex12(Exam0110 ~ Exam0160): 람다(lambda) 기본 사용법
 - 팀 프로젝트
 	- 요구사항 정의: Usecase Model(계속)
+
+## 41일차(2021-08-24,화)
+
+- 자바 객체지향 문법(eomcs-java/com.eomcs.oop)
+	- ex12(Exam0210 ~ ): 람다(lambda) 기본 사용법
+- 자바 컬렉션 API(eomcs-java/com.eomcs.basic)
+	- ex03: ArrayList 사용법(계속)

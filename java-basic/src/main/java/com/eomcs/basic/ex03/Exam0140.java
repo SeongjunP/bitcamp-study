@@ -65,7 +65,7 @@ public class Exam0140 {
     //   equals()의 리턴 값이 true인 경우 같은 값으로 간주한다.
     //
     Member m4 = new Member("유관순", 17);
-    System.out.println(list.indexOf(m4)); // true
+    System.out.println(list.indexOf(m4)); // 2
 
     System.out.println(m2 == m4);
     System.out.println(m2.equals(m4));

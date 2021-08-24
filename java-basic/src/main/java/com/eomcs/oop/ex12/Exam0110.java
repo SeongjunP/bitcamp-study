@@ -44,18 +44,18 @@ public class Exam0110 {
 // => 예) 
 // 원래의 자바코드:
 //    Player p2 = () -> {
-//		System.out.println("람다");
-//		};
+//      System.out.println("람다");
+//    };
 //
 // 컴파일러가 변환한 코드:
-//private static synthetic void lambda$0();
-//0  getstatic java.lang.System.out : java.io.PrintStream [33]
-//3  ldc <String "람다"> [39]
-//5  invokevirtual java.io.PrintStream.println(java.lang.String) : void [41]
-//8  return
-//  Line numbers:
-//    [pc: 0, line: 27]
-//    [pc: 8, line: 28]
+//    private static synthetic void lambda$0();
+//    0  getstatic java.lang.System.out : java.io.PrintStream [33]
+//    3  ldc <String "람다"> [39]
+//    5  invokevirtual java.io.PrintStream.println(java.lang.String) : void [41]
+//    8  return
+//      Line numbers:
+//        [pc: 0, line: 27]
+//        [pc: 8, line: 28]
 //
 // => 람다를 호출하는 코드는 자동 생성된 메서드를 호출하는 코드로 변환된다.
 //
