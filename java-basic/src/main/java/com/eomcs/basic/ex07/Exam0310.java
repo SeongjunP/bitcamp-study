@@ -15,10 +15,10 @@ public class Exam0310 {
       this.age = age;
     }
 
-    @Override
-    public String toString() {
-      return "Member [name=" + name + ", age=" + age + "]";
-    }
+	@Override
+	public String toString() {
+		return "Member [name=" + name + ", age=" + age + "]";
+	}
   }
 
   public static void main(String[] args) {
