@@ -7,7 +7,11 @@ import com.eomcs.util.Prompt;
 public class AuthHandler {
 
   List<Member> memberList;
-  Member loginUser;
+
+  static Member loginUser;
+  public static Member getLoginUser() {
+    return loginUser;
+  }
 
   public AuthHandler(List<Member> memberList) {
     this.memberList = memberList;
@@ -17,7 +21,7 @@ public class AuthHandler {
     System.out.println("[로그인]");
 
     String email = Prompt.inputString("이메일? ");
-    String password = Prompt.inputString("암호?");
+    String password = Prompt.inputString("암호? ");
 
     Member member = findByEmailPassword(email, password);
 
@@ -43,13 +47,13 @@ public class AuthHandler {
     System.out.printf("전화: %s\n", loginUser.getTel());
     System.out.printf("등록일: %s\n", loginUser.getRegisteredDate());
   }
-  
-  public void logout() {
-	    System.out.println("[로그아웃]");
 
-	    loginUser = null;
-	      System.out.println("로그아웃 하였습니다.");
-	  }
+  public void logout() {
+    System.out.println("[로그아웃]");
+
+    loginUser = null;
+    System.out.println("로그아웃 하였습니다.");
+  }
 
   private Member findByEmailPassword(String email, String password) {
     for (Member member : memberList) {
