@@ -493,3 +493,11 @@
 - 실전 프로젝트(eomcs-java-project)
 	- 14-e. `Command` 디자인 패턴 : 인터페이스로 객체의 사용 규칙 통일
 	- 14-f. `Command` 디자인 패턴 : `Map`으로 커맨드 객체 관리
+- 팀 프로젝트 
+	- 팀별 프로젝트 구현
+	- 5차: 중간 구현 점검
+- 디자인 패턴(eomcs-java/com.eomcs.design_pattern)
+	- decorator: 데코레이터 패턴 소개
+- 자바 스트림 API(eomcs-java/com.eomcs.io)
+	- ex04: FileInputStream/FileOutputStream 을 이용하여 객체의 필드 값 출력하기
+	- ex05: FileInputStream/FileOutputStream 을 상속 받아서 기능을 확장하기
