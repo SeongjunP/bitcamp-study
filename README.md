@@ -421,7 +421,7 @@
 - 자바 컬렉션 API(eomcs-java/com.eomcs.basic)
 	- ex03: ArrayList 사용법(계속)
 
-	## 41일차(2021-08-24,화)
+## 41일차(2021-08-24,화)
 
 - 자바 객체지향 문법(eomcs-java/com.eomcs.oop)
 	- ex12(Exam0210 ~ ): 람다(lambda) 기본 사용법
@@ -501,3 +501,59 @@
 - 자바 스트림 API(eomcs-java/com.eomcs.io)
 	- ex04: FileInputStream/FileOutputStream 을 이용하여 객체의 필드 값 출력하기
 	- ex05: FileInputStream/FileOutputStream 을 상속 받아서 기능을 확장하기
+
+## 49일차(2021-09-03,금)
+
+- 실전 프로젝트(eomcs-java-project)
+	- 15. 비트 연산자 활용: 메뉴 권한 관리
+- 팀 프로젝트 
+	- 4차: 중간 구현 점검
+
+## 50일차(2021-09-06,월)
+
+- 팀 프로젝트 
+	- 팀별 프로젝트 구현
+
+## 51일차(2021-09-07,화)
+
+- 실전 프로젝트(eomcs-java-project)
+	- 16. 파일 입출력 다루기 : 바이너리 형식으로 데이터 입출력
+
+## 52일차(2021-09-08,수)
+
+- 자바 스트림 API(eomcs-java/com.eomcs.io)
+	- ex01: File 클래스 사용법
+	- ex02: FileInputStream/FileOutputStream 클래스 사용법
+- 팀 프로젝트 
+	- 팀별 프로젝트 구현
+
+## 53일차(2021-09-09,목)
+
+- 자바 스트림 API(eomcs-java/com.eomcs.io)
+	- ex02: FileInputStream/FileOutputStream 클래스 사용법(계속)
+	- ex03: FileReader/FileWriter 클래스 사용법
+- 팀 프로젝트 
+	- 팀별 프로젝트 구현
+
+## 54일차(2021-09-10,금)
+
+- 팀 프로젝트 
+	- 팀별 프로젝트 구현
+	- 5차: 중간 구현 점검
+- 디자인 패턴(eomcs-java/com.eomcs.design_pattern)
+	- decorator: 데코레이터 패턴 소개
+- 자바 스트림 API(eomcs-java/com.eomcs.io)
+	- ex04: FileInputStream/FileOutputStream 을 이용하여 객체의 필드 값 출력하기
+	- ex05: FileInputStream/FileOutputStream 을 상속 받아서 기능을 확장하기
+
+## 55일차(2021-09-13,월)
+
+- 자바 스트림 API(eomcs-java/com.eomcs.io)
+	- ex06: 버퍼를 활용하는 이유
+	- ex07: 상속으로 기능을 확장하는 방식의 한계점 이해하기
+	- ex08: 포함관계로 기능을 확장하기
+	- ex09: 데코레이터 설계 패턴을 적용하기
+	- ex10: 자바에서 제공하는 스트림 클래스 사용하기
+	- ex11: 객체를 serialize/deserialize 하기
+- 팀 프로젝트 
+	- 팀별 프로젝트 구현
