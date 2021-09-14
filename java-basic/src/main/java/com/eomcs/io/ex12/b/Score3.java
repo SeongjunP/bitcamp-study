@@ -44,8 +44,14 @@ public class Score3 implements Serializable {
   
   @Override
   public String toString() {
-    return "Score3 [name=" + name + ", tel=" + tel + ", kor=" + kor + ", eng=" + eng + ", math="
-        + math + ", sum=" + sum + ", aver=" + aver + "]";
+    return "Score3 [name=" + name + 
+    		", tel=" + tel + 
+    		", kor=" + kor + 
+    		", eng=" + eng + 
+    		", math="+ math + 
+    		", sum=" + sum + 
+    		", aver=" + aver + 
+    		"]";
   }
   
   public String getTel() {
