@@ -33,7 +33,8 @@ public class BoardDetailHandler extends AbstractBoardHandler {
     System.out.println();
 
     Member loginUser = AuthLoginHandler.getLoginUser(); 
-    if (loginUser == null || board.getWriter().getNo() != loginUser.getNo()) {
+    if (loginUser == null || 
+        (board.getWriter().getNo() != loginUser.getNo() && !loginUser.getEmail().equals("root@test.com"))) {
       return;
     }
 
