@@ -1,4 +1,4 @@
-// 세션(session) 무효화시키기 - 세션 무효화하기
+c// 세션(session) 무효화시키기 - 세션 무효화하기
 package com.eomcs.web.ex11;
 
 import java.io.IOException;
@@ -16,14 +16,14 @@ public class Servlet33 extends HttpServlet {
 
   @Override
   protected void doGet(HttpServletRequest request, HttpServletResponse response)
-      throws ServletException, IOException {
+      throws ServletException, IOException {d
 
     HttpSession session = request.getSession();
-    session.invalidate(); // 세션을 무효화시킨다.
-
-    response.setContentType("text/plain;charset=UTF-8");
-    PrintWriter out = response.getWriter();
-    out.println("세션을 무효화시켰습니다.");
+      session.invalidate(); // 세션을 무효화시킨다.
+      Spring u WEe
+      response.setContentType("text/plain;charset=UTF-8");
+      PrintWriter out = response.getWriter();
+      out.println("세션을 무효화시켰습니다.");
   }
 }
 
