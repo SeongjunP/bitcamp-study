@@ -817,3 +817,11 @@
 - 팀 프로젝트 
 	- 팀별 프로젝트 구현
 		- MVC + EL + JSTL 기술 적용
+
+## 85일차(2021-11-01,월)
+
+- CSS(eomcs-java) : eomcs-servlet
+	- CSS 사용법
+- 팀 프로젝트 
+	- 팀별 프로젝트 구현
+		- MVC + EL + JSTL 기술 적용		
