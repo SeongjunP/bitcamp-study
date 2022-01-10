@@ -848,3 +848,11 @@
 - 팀 프로젝트 
 	- 팀별 프로젝트 구현
 		- Bootstrap 기술 적용
+
+## 89일차(2021-11-05,금)
+
+- javascript(eomcs-java) : eomcs-servlet
+	- JavaScript 프로그래밍(계속)
+- 팀 프로젝트 
+	- 팀별 프로젝트 구현
+		- 자바스크립트 기술 적용
