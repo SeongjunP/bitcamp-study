@@ -856,3 +856,13 @@
 - 팀 프로젝트 
 	- 팀별 프로젝트 구현
 		- 자바스크립트 기술 적용
+
+## 90일차(2021-11-08,월)
+
+- javascript(eomcs-java) : eomcs-servlet
+	- JavaScript 프로그래밍(계속)
+- 실전 프로젝트(eomcs-java-project)
+	- 23-e. 웹 애플리케이션 서버 아키텍처로 전환하기 : JavaScript 적용 + POST + 필터 적용
+- 팀 프로젝트 
+	- 팀별 프로젝트 구현
+		- 자바스크립트 기술 적용
